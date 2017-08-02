@@ -1,0 +1,93 @@
+{
+  "contract_name": "IDMRegistry",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "userEthAccount",
+          "type": "address"
+        }
+      ],
+      "name": "registerUser",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "userEthAccount",
+          "type": "address"
+        }
+      ],
+      "name": "isRegistered",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "userEthAccount",
+          "type": "address"
+        }
+      ],
+      "name": "getUserDetails",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "userEthAccount",
+          "type": "address"
+        },
+        {
+          "name": "userProfile",
+          "type": "address"
+        }
+      ],
+      "name": "registerContract",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "userEthAccount",
+          "type": "address"
+        }
+      ],
+      "name": "deleteUserDetails",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x606060405260008054600160a060020a0319169055341561001c57fe5b5b60018054600160a060020a03191633600160a060020a03161790555b5b6102cb806100496000396000f300606060405263ffffffff60e060020a6000350416632199d5cd811461004d578063c3c5a5471461006b578063cc3d967b1461009b578063d7e5fbf3146100d3578063f43a329b146100f7575bfe5b341561005557fe5b610069600160a060020a0360043516610115565b005b341561007357fe5b610087600160a060020a0360043516610150565b604080519115158252519081900360200190f35b34156100a357fe5b6100b7600160a060020a0360043516610172565b60408051600160a060020a039092168252519081900360200190f35b34156100db57fe5b610069600160a060020a03600435811690602435166101d2565b005b34156100ff57fe5b610069600160a060020a0360043516610243565b005b61011e81610150565b156101295760006000fd5b600160a060020a0381166000908152600360205260409020805460ff191660011790555b50565b600160a060020a03811660009081526003602052604090205460ff165b919050565b600061017d82610150565b15156101895760006000fd5b50600160a060020a0380821660009081526002602052604090819020815160c860020a6650726f66696c650281526007810191909152905190819003602701902054165b919050565b6101db82610150565b15156101e75760006000fd5b600160a060020a0380831660009081526002602052604090819020815160c860020a6650726f66696c65028152600781019190915290519081900360270190208054918316600160a060020a03199092169190911790555b5050565b60008054600160a060020a0383811683526002602052604092839020835160c860020a6650726f66696c6502815260078101919091529251928390036027019092208054600160a060020a031916929091169190911790555b505600a165627a7a72305820ebdf8dfc1c4148ed1da8c30011216409f1ca0e4e615ef8af99f20aea3f3cf91d0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1500373563082
+}

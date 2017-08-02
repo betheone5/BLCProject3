@@ -1,0 +1,24 @@
+{
+  "name": "idm",
+  "version": "1.0.0",
+  "description": "Bundled service API for a mobile device to interact with blockchain",
+  "main": "index.js",
+  "dependencies": {
+    "app-root-path": "*",
+    "body-parser": "*",
+    "busboy": "*",
+    "express": "*",
+    "ipfs-api": "*",
+    "jsonwebtoken": "*",
+    "nedb": "*",
+    "socket.io": "*",
+    "truffle-artifactor": "^2.1.4",
+    "truffle-contract": "*",
+    "web3": "*"
+  },
+  "scripts": {
+    "test": "\"IDM integrity is good\""
+  },
+  "author": "",
+  "license": "ISC"
+}
